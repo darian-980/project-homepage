@@ -232,3 +232,48 @@ body {
     margin-left: -3em;
     margin-right: -3em;
 }
+
+
+
+@media (max-width: 1000px) {
+
+    /* tablet */
+    body {
+        background-color: #3b0a0a;
+    }
+
+    .my-work-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+    }
+
+    /* crop image */
+    .contact-us-img {
+        object-fit: cover;
+        height: 350px;
+        width: 300px;
+        object-position: bottom;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 500px) {
+
+    /* phone */
+    body {
+        background-color: #07811b;
+    }
+
+    .my-work-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+    }
+}
